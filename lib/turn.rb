@@ -36,4 +36,3 @@ def turn
   input_to_index(gets.chomp)
 
 end
-
