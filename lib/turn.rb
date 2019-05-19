@@ -30,7 +30,7 @@ def position_taken?(board, index)
   end
 end
 
-def turn
+def turn(board)
   puts "Please enter 1-9:"
   gets.chomp
   input_to_index(gets.chomp)
