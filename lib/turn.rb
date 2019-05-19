@@ -29,3 +29,6 @@ def position_taken?(board, index)
     false
   end
 end
+
+def turn
+  puts "Please enter 1-9:"
