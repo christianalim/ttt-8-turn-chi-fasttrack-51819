@@ -30,12 +30,12 @@ def position_taken?(board, index)
   end
 end
 
-def turn(board)
+def turn
   puts "Please enter 1-9:"
   num = gets.strip
   num2 = input_to_index(num)
   if valid_move?(board, num2) == false
-      puts "Please enter 1-9:"
-      new_num = gets.strip
-  end
+    puts "Please enter 1-9:"
+    new_num = gets.strip
+  end  
 end
