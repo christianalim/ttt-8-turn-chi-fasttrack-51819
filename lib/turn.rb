@@ -32,7 +32,7 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  gets
-  input_to_index(gets.chomp)
+  num = gets.strip
+  input_to_index(num)
 
 end
