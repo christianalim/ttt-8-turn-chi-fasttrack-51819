@@ -31,7 +31,7 @@ def position_taken?(board, index)
 end
 
 def turn
-  print "Please enter 1-9:"
+  gets.chomp("Please enter 1-9:")
   input_to_index(gets.chomp)
 
 end
