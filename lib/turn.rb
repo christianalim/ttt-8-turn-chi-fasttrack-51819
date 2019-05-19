@@ -30,7 +30,7 @@ def position_taken?(board, index)
   end
 end
 
-def turn
+def turn(board)
   puts "Please enter 1-9:"
   num = gets.strip
   num2 = input_to_index(num)
